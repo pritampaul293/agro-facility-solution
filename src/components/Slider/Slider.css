@@ -1,0 +1,33 @@
+.Carousel{
+    margin-top: 50px;
+
+}
+.carouselCard{
+    margin-right: 10px;
+  
+    
+    
+}
+.textPicture{
+    text-align: center;
+  
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:rgb(13, 138, 221) ;
+
+    
+}
+.textPicture2{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color:rgb(13, 138, 221) ;
+}
+.sliderHeading{
+    background-color: black;
+    color:white ;
+    opacity: 0.7;
+    border-radius: 2rem;
+   
+}

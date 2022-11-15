@@ -1,0 +1,90 @@
+.loginBox {
+    background-color: rgba(32,32,34,255) ;
+    min-height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px;
+    height: 520px;
+    border-radius: 5%;
+    
+
+}
+
+.logIn {
+    color: rgb(156, 0, 0);
+    font-weight: bold;
+    font-family: "Releway", sans-serif;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+.loginSubHead{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+.logIn2 {
+    color: rgba(243, 138, 19, 0.99);
+    font-family: "Releway", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.logIn3 {
+    margin: 15px;
+    color: white;
+    font-family: "Releway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+
+}
+
+.loginText {
+    font-size: 16px;
+    font-family: "Releway", sans-serif;
+    color: antiquewhite;
+}
+
+.loginText2 {
+    font-size: 15px;
+   
+    font-family: "Releway", sans-serif;
+    color: red;
+}
+
+.regBox {
+    background-color: rgba(32,32,34,255) ;
+    min-height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    width: 420px;
+    height: 620px;
+    border-radius: 5%;
+}
+.signUPHeader{
+    color: rgb(156, 0, 0);
+    font-weight: bold;
+    font-family: "Releway", sans-serif;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 3rem;
+   
+}

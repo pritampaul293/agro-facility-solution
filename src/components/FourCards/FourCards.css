@@ -1,0 +1,30 @@
+.four-images{
+    margin-top: 8px;
+    width: 215px;
+    height: 120px;
+    background-position: left;
+    transition: all 0.3s ease-in;
+    transform-origin: center center;
+    filter: brightness(75%);
+}
+.four-images:hover{
+    filter: brightness(100%);
+    transform: scale(1.2);
+
+}
+.image-box{
+        overflow: hidden;
+}
+
+.image{
+    width: 200px;
+    padding-top: 1rem;
+    height: 150px;
+    transition: all 0.3s ease-in;
+  transform-origin: center center;
+  filter: brightness(75%);
+}
+.image:hover{
+    filter: brightness(100%);
+    transform: scale(1.2);
+}

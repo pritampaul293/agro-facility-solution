@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.image{
+    width: 200px;
+    padding-top: 1rem;
+    height: 150px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(31, 26, 26);
+}
+a:hover{
+    color: rgb(16, 119, 138);
+}
+.newTitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.newsSubTitle{
+    text-align: center;
+    font-size: 10px;
+}
+.CardHeadline{
+    background-color: grey;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

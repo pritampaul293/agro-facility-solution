@@ -1,0 +1,72 @@
+.ticketWrapper{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+ }
+ .bigHeading{
+     display: block;
+     position: absolute;
+     font-style:italic;
+     font-size: 40px;
+     background: #e60000;
+     color:#fff;
+     text-transform: uppercase;
+     padding: 15px;
+     letter-spacing: 3px;
+     font-weight: 700;
+     z-index: 2
+ }
+ .bigHeading::after,
+ .bigHeading::before{
+     content: '';
+     width:0;
+     position:absolute;
+     border-width: 78px;
+     border-style: solid;;
+     top: 0;
+     z-index:-1
+ }
+ .bigHeading::before{
+     border-color: #e60000 transparent transparent transparent;
+     right: -78px;
+ }
+ .bigHeading::after{
+     border-color:  transparent transparent #e60000 transparent;
+     left: -78px;
+     top:-78px;
+ }
+ .textUpdate{
+     height: 78px;
+     background: #004fff;
+     overflow: hidden;
+     position: relative;
+     color:#fff;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 30px;
+     font-weight: 500;
+     display: flex;
+     align-items:center;
+     left: 125px;
+ }
+ .riad {
+     position:absolute;
+     width:150%;
+     margin:0;
+     font-weight: 700;
+     text-align: left;
+ 
+     transform: translateX(100%);
+     animation: moving 10s linear infinite;
+ }
+ @keyframes moving{
+     0%{
+         transform: translateX(100%);
+     }
+     100%{
+         transform: translateX(-100%);
+     }
+ 
+ }
